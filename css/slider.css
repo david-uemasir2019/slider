@@ -1,0 +1,38 @@
+body{
+	background-image: url("../img/fondo.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+}
+img{
+	height: 550px;
+	margin-left: 200px;
+	margin-top: 20px;
+	position: absolute;
+	z-index: -1;
+}
+#contenedor{
+	display: inline-block;
+	position: absolute;
+	margin-left: 620px;
+	margin-top: 38%
+}
+#botizq{width: 50px;
+	height: 50px;
+	margin-left: 15%;
+	margin-top:18%;
+	position: absolute;
+	z-index: 2;
+	border:2px solid purple;
+	
+}
+#botder{width: 50px;
+	height: 50px;
+	margin-left: 82%;
+	margin-top: 18%;
+	position: absolute;
+	z-index: 1;
+	border:2px solid purple;
+
+}
+
